@@ -4,7 +4,7 @@ A draft specification for **Student AI Disclosure** — machine-readable declara
 
 A teacher reviewing a submission, an LMS attaching the disclosure as metadata, or an academic-integrity office auditing patterns can all read one document format. The student gets a defensible, structured record of what they did and didn't do.
 
-This spec is the **student-side** counterpart to [AI Tutor Cards](https://github.com/mizcausevic-dev/ai-tutor-card-spec) (vendor-side) and the forthcoming Classroom AI AUP spec (district-side). The three together form a closed loop: the vendor declares what its tutor does, the district declares what AI use it permits, and the student declares their actual use on each artifact.
+This spec is the **student-side** counterpart to [AI Tutor Cards](https://github.com/mizcausevic-dev/ai-tutor-card-spec) (vendor-side) and the [Classroom AI AUP](https://github.com/mizcausevic-dev/classroom-ai-aup-spec) spec (district-side). The three together form a closed loop: the vendor declares what its tutor does, the district declares what AI use it permits, and the student declares their actual use on each artifact.
 
 ## The four pillars
 
@@ -83,6 +83,7 @@ A family of open specifications for the answer-engine and agent era:
 | [MCP Tool Cards](https://github.com/mizcausevic-dev/mcp-tool-card-spec) | Per-tool disclosure for Model Context Protocol servers |
 | [AI Tutor Cards](https://github.com/mizcausevic-dev/ai-tutor-card-spec) | EdTech-specialized agent disclosure (vendor-side) |
 | **Student AI Disclosure** (this) | Student-side disclosure attached to submitted work |
+| [Classroom AI AUP](https://github.com/mizcausevic-dev/classroom-ai-aup-spec) | District / school / course AI policy (third leg of the EdTech trio) |
 
 ---
 

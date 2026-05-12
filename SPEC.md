@@ -25,7 +25,7 @@ A Student AI Disclosure is **not** an honor pledge. It is a structured declarati
 
 A Student AI Disclosure **SHOULD** reference the underlying [AI Tutor Card](https://github.com/mizcausevic-dev/ai-tutor-card-spec) (via `tools_used[].tutor_card_uri`) or [Agent Card](https://github.com/mizcausevic-dev/agent-cards-spec) (via `tools_used[].agent_card_uri`) when one exists, so a reviewer can chain through to vendor-side disclosure.
 
-A Student AI Disclosure **SHOULD** reference the operative [Classroom AI Acceptable Use Policy](https://github.com/mizcausevic-dev/classroom-ai-aup-spec) (via `aup_uri`) when one exists, so the disclosure binds to the policy in force at submission time.
+A Student AI Disclosure **SHOULD** reference the operative [Classroom AI Acceptable Use Policy](https://github.com/mizcausevic-dev/classroom-ai-aup-spec) (via `aup_uri`) so the disclosure binds to the policy in force at submission time.
 
 ## 2. Terminology
 
@@ -253,7 +253,7 @@ The spec is transport-agnostic. The LMS or grading system is responsible for ret
 This spec is the student-side counterpart to:
 
 - [AI Tutor Cards](https://github.com/mizcausevic-dev/ai-tutor-card-spec) — vendor-side disclosure of what an AI tutor does.
-- [Classroom AI AUP](https://github.com/mizcausevic-dev/classroom-ai-aup-spec) — district-side disclosure of what AI use is permitted (forthcoming).
+- [Classroom AI AUP](https://github.com/mizcausevic-dev/classroom-ai-aup-spec) — district / school / course-side disclosure of what AI use is permitted.
 
 The trio (vendor / district / student) forms a closed loop: a tutor declares its behavior, a district declares its policy, a student declares their actual use. A grader can mechanically check that all three line up.
 
