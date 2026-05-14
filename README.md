@@ -1,5 +1,8 @@
 # Student AI Disclosure
 
+[![Validate examples](https://github.com/mizcausevic-dev/student-ai-disclosure-spec/actions/workflows/validate.yml/badge.svg)](https://github.com/mizcausevic-dev/student-ai-disclosure-spec/actions/workflows/validate.yml)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
 A draft specification for **Student AI Disclosure** — machine-readable declarations attached to student-submitted work that state how AI was used in producing it.
 
 A teacher reviewing a submission, an LMS attaching the disclosure as metadata, or an academic-integrity office auditing patterns can all read one document format. The student gets a defensible, structured record of what they did and didn't do.
